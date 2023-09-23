@@ -1,4 +1,4 @@
-<# Multivendor E-commerce Site
+## Multivendor E-commerce Site
 
 This Multivendor E-commerce Site us a wev application developed with HTML CSS Bootstrap JavaScript and PHP Laravel to help shop and business owners carry their businesses online. It gives a wide range of functionalities for the administrator and his different vendors. indeed the system is massive
 
