@@ -1,0 +1,92 @@
+.flat-slider {
+	padding: 0;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 12px;
+	padding-bottom: 17px;
+}
+
+.flat-slider .ui-corner-all { border-radius: 0px; }
+
+.flat-slider .ui-widget-content a { color: #222222; }
+
+.flat-slider .ui-widget-content {
+	color: #0B2C3D;
+	background: #89CAFC;
+	background-image: none;
+	border-width: 0;
+}
+
+.flat-slider .ui-widget-header {
+  background-color: white;
+  border-color: white;
+  background-image: none;
+}
+
+.flat-slider .ui-state-hover,
+.flat-slider .ui-widget-content .ui-state-hover,
+.flat-slider .ui-widget-header .ui-state-hover,
+.flat-slider .ui-state-focus,
+ .flat-slider .ui-widget-content .ui-state-focus,
+.flat-slider .ui-widget-header .ui-state-focus { background-image: none; }
+
+.flat-slider .ui-slider {
+  position: relative;
+  text-align: left;
+}
+
+.flat-slider .ui-slider-horizontal {
+	height: 4px;
+	width: 96%;
+}
+
+.flat-slider .ui-slider-handle {
+	cursor: pointer;
+	position: absolute;
+	z-index: 2;
+	background-color: #2A9CF5;
+	border-color: #fff;
+	border-radius: 3px;
+	height: 20px;
+	top: -8px;
+	width: 10px;
+}
+
+.flat-slider .min, .flat-slider .max, .flat-slider .min_value, .flat-slider .max_value, .flat-slider .value {
+	margin-top: 15px;
+	font-size: 12px;
+	white-space: nowrap;
+	-webkit-transition-duration: 0.35s;
+	-moz-transition-duration: 0.35s;
+	-o-transition-duration: 0.35s;
+	transition-duration: 0.35s;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+	font-weight: 600;
+	color: #353535;
+}
+
+.flat-slider .min, .flat-slider .max {
+	font-size: 0.7rem;
+	color: #fff;
+}
+
+.flat-slider .min { float: left; }
+
+.flat-slider .max { float: right; }
+
+.flat-slider .min_value,
+.flat-slider .max_value,
+.flat-slider .value { position: absolute; }
+
+.flat-slider::after { clear: both; }
+
+.price_ranger button {
+	padding: 7px 15px;
+	text-transform: capitalize;
+	border: none;
+	margin-bottom: 3px;
+}

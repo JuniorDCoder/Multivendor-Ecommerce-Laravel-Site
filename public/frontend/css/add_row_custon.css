@@ -1,0 +1,66 @@
+#medicine_row{}
+
+#medicine_row label,
+#medicine_row2 label {
+	display: block;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 600;
+	color: #07123b;
+	margin-bottom: 5px;
+}
+
+#medicine_row label span,
+#medicine_row2 label span {
+	color: #dc3545;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.medicine_row_input {
+	display: block;
+	width: 100%;
+	position: relative;
+	margin-bottom: 23px;
+}
+
+.medicine_row_input input {
+	padding: 12px;
+	width: 90%;
+	border-radius: 5px;
+	border: 1px solid #C8D3FF;
+}
+
+.medicine_row_input button {
+	background: #2A9CF5;
+	color: #fff;
+	border: none;
+	width: 45px;
+	height: 45px;
+	border-radius: 5px;
+	font-size: 15px;
+	transition: all linear .3s;
+	-webkit-transition: all linear .3s ease;
+	-moz-transition: all linear .3s ease;
+	-ms-transition: all linear .3s ease;
+	-o-transition: all linear .3s ease;
+}
+
+ #removeRow,
+ #removeRow2 {
+	background: #FF0000;
+	transition: all linear .3s;
+	-webkit-transition: all linear .3s ease;
+	-moz-transition: all linear .3s ease;
+	-ms-transition: all linear .3s ease;
+	-o-transition: all linear .3s ease;
+}
+
+.medicine_row_input button:hover{
+	background: #4b6cf0;
+}
+
+#removeRow:hover,
+#removeRow2:hover{
+	background: #a00101;
+}
