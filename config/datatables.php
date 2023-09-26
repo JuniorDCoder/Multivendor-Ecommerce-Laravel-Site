@@ -119,6 +119,17 @@ return [
         'options' => 0,
     ],
 
+    'mysql' => [
+        'driver' => 'mysql',
+        'url' => getenv('CLEARDB_DATABASE_URL'),
+        'host' => parse_url(getenv('CLEARDB_DATABASE_URL'), PHP_URL_HOST),
+        'port' => parse_url(getenv('CLEARDB_DATABASE_URL'), PHP_URL_PORT),
+        'database' => substr(parse_url(getenv('CLEARDB_DATABASE_URL'), PHP_URL_PATH), 1),
+        'username' => parse_url(getenv('CLEARDB_DATABASE_URL'), PHP_URL_USER),
+        'password' => parse_url(getenv('CLEARDB_DATABASE_URL'), PHP_URL_PASS),
+        // ...
+    ],
+
     /*
      * Default condition to determine if a parameter is a callback or not.
      * Callbacks needs to start by those terms, or they will be cast to string.
